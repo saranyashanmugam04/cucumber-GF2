@@ -19,7 +19,7 @@ public class feature1Class {
 
 	@When("user opens login application")
 	public void user_opens_login_application() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\saranya.a.shanmugam\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Devops Testing\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://newtours.demoaut.com");
 	}
